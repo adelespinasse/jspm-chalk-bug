@@ -1,0 +1,27 @@
+{
+  "name": "jspm-chalk-bug",
+  "version": "1.0.0",
+  "description": "Demo of bug in jspm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jspm": "^0.17.0-beta.44"
+  },
+  "jspm": {
+    "name": "jspm-chalk-bug",
+    "main": "jspm-chalk-bug.js",
+    "dependencies": {},
+    "devDependencies": {
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.25"
+    },
+    "peerDependencies": {
+      "assert": "npm:jspm-nodelibs-assert@^0.2.0",
+      "os": "npm:jspm-nodelibs-os@^0.2.0",
+      "process": "npm:jspm-nodelibs-process@^0.2.0"
+    }
+  }
+}
